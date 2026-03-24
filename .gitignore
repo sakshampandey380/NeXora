@@ -1,0 +1,72 @@
+# =========================
+# 🔒 Sensitive Files
+# =========================
+.env
+.env.*
+config/local.php
+config/database.php
+
+# =========================
+# 📦 Dependencies
+# =========================
+/vendor/
+/node_modules/
+
+# =========================
+# 📁 Uploads (user data)
+# =========================
+/uploads/
+/assets/uploads/
+
+# =========================
+# 🧠 Cache & Logs
+# =========================
+*.log
+*.cache
+/cache/
+/tmp/
+
+# =========================
+# 💻 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧰 IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# 🐍 Python (if used anywhere)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# ⚙️ Build / Temp Files
+# =========================
+*.bak
+*.swp
+*.tmp
+
+# =========================
+# 🔥 XAMPP / Local Server Specific
+# =========================
+/xampp/
+/php_error_log
+
+# =========================
+# 🧪 Test / Debug Files
+# =========================
+debug.php
+test_*.php
+
+# =========================
+# 📸 Optional (if large images/videos)
+# =========================
+*.mp4
+*.zip
